@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "name": "/new_endpoint001",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v1/new_endpoint",
+    "data_source": {
+      "cluster_id": 10014311200471105395
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 100,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-v1-new_endpoint.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
